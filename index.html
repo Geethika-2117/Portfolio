@@ -1,277 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geethika - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vangala Venkata Geethika — Software Engineer & AI Developer</title>
+<meta name="description" content="Portfolio of Vangala Venkata Geethika, Computer Science (AI) undergraduate specializing in Software Engineering, Machine Learning and Artificial Intelligence.">
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function(){
-        emailjs.init("fMMQOZe3EqBcPzjbz");
-    })();
-  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){ emailjs.init("fMMQOZe3EqBcPzjbz"); })();
+</script>
 </head>
 <body>
-    <header>
-        <div class="logo">Portfolio</div>
-        <nav>
-            <a href="#hero" class="nav-link">Home</a>
-            <a href="#about" class="nav-link">About</a>
-             <a href="#biodata" class="nav-link">Biodata</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero" id="hero">
-            <div class="hero-text">
-                <h2>Hello</h2>
-                <h1>I Am<br>Geethika</h1>
-                <p>2nd Year CSE Student & Aspiring Software Developer</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/venkata-geethika-vangala-808a44336/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/Geethika-2117" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/geethika_2117/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="main-photo">
-                    <div class="placeholder-image"></div>
-                </div>
-                <div class="photo-gallery">
-                    <div class="placeholder-small"><img src="pic1.jpg"></div>
-                    <div class="placeholder-small"><img src="pic3.jpg"></div>
-                    <div class="placeholder-small"><img src="pic2.jpg"></div>
-                </div>
-            </div>
-        </section>
+<a class="skip-link" href="#main">Skip to content</a>
 
-        <!-- About Section -->
-        <section class="about" id="about">
-            <div>
-                <h2>About Me</h2>
-                <p>I am currently pursuing Computer Science and Engineering with a specialization in Artificial Intelligence at Amrita Vishwa Vidyapeetham, Amaravati (Class of 2028).
+<header>
+  <a href="#hero" class="logo">VG<span class="logo-dot">.</span></a>
+  <nav>
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#education" class="nav-link">Education</a>
+    <a href="#experience" class="nav-link">Experience</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#achievements" class="nav-link">Achievements</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
 
-Passionate about exploring the intersection of AI, software development, and core computer science concepts, I enjoy solving challenging problems, building impactful projects, and continuously learning new technologies. My academic journey is helping me strengthen my foundation in computer science while also preparing me to apply AI in real-world applications.
+<main id="main">
 
-Curious, adaptable, and driven, I aim to grow as a developer and contribute to innovative solutions that make a meaningful difference.</p>
-                <div class="skills">
-                    <div class="skill-tag"><i class="fas fa-microchip"></i> Data Structures</div>
-                    <div class="skill-tag"><i class="fas fa-code"></i> Algorithms</div>
-                    <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
-                    <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
-                    <!--<div class="skill-tag"><i class="fas fa-server"></i> Backend Development</div>
-                    <div class="skill-tag"><i class="fas fa-database"></i> Database Systems</div>-->
-                </div>
-            </div>
-            <div class="value-card">
-                <h3>The Value Provided</h3>
-                <p>I bring strong logical thinking, clean coding practices, and a proactive attitude towards learning new frameworks and solving complex problems efficiently.</p>
-                <div class="value-icon">💻</div>
-            </div>
-        </section>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-text reveal">
+      <p class="eyebrow">// Computer Science (Artificial Intelligence) Undergraduate</p>
+      <h1>Vangala Venkata<br>Geethika</h1>
+      <p class="hero-role">I build <span class="typed-role" id="typedRole">Software Engineer</span><span class="cursor">|</span></p>
+      <p class="hero-sub">Software Engineering &nbsp;|&nbsp; Machine Learning &nbsp;|&nbsp; Artificial Intelligence</p>
 
-        <!-- Add this section after the About section and before the Projects section -->
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="resume.pdf" class="btn btn-outline" download>Download Resume <i class="fas fa-arrow-down-long"></i></a>
+      </div>
 
-<!-- NEW: Biodata Section -->
-<section class="biodata" id="biodata">
-    <h2>Biodata</h2>
-    <div class="biodata-container">
-        <div class="biodata-info">
-            <div class="info-item">
-                <span class="info-label">Full Name:</span>
-                <span class="info-value">Venkata Geethika Vangala</span>
-            </div>
-            <div class="info-item">
-                <span class="info-label">Date of Birth:</span>
-                <span class="info-value">January 21, 2007</span>
-            </div>
-            <div class="info-item">
-                <span class="info-label">Address:</span>
-                <span class="info-value">Guntur, Andhra Pradesh, India</span>
-            </div>
-            <div class="info-item">
-                <span class="info-label">Nationality:</span>
-                <span class="info-value">Indian</span>
-            </div>
-            <div class="info-item">
-                <span class="info-label">Languages:</span>
-                <span class="info-value">English, Telugu, Hindi</span>
-            </div>
-        </div>
-        <div class="education-info">
-            <h3>Education</h3>
-            <div class="education-item">
-                <h4>Bachelor of Technology in Computer Science and Engineering (AI)</h4>
-                <p class="institution">Amrita Vishwa Vidyapeetham, Amaravati</p>
-                <p class="duration">2024 - 2028</p>
-                <p class="details">Specialization in Artificial Intelligence</p>
-            </div>
-            <div class="education-item">
-                <h4>Intermediate Education</h4>
-                <p class="institution">Sri Chaitanya Junior College, Guntur</p>
-                <p class="duration">2020 - 2022</p>
-                <p class="details">MPC (Mathematics, Physics, Chemistry)</p>
-            </div>
-            <div class="education-item">
-                <h4>Secondary School Education</h4>
-                <p class="institution">Sri Chaitanya Techno School, Guntur</p>
-                <p class="duration">2020</p>
-                <p class="details">State Board</p>
-            </div>
-        </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/venkata-geethika-vangala-808a44336/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Geethika-2117" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://leetcode.com/u/Geethika_2117/" target="_blank" rel="noopener" title="LeetCode"><i class="fas fa-code"></i></a>
+        <a href="mailto:vangalageethika@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
     </div>
-</section>
-        
-        <!-- NEW: Projects Section -->
-        <section class="services" id="projects">
-            <h2>Featured Projects</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-brain"></i></div>
-                    <div class="service-content">
-                        <h3>Disease Detection using MATLAB</h3>
-                        <p>A prototype for Automated Skin Disease Diagnosis. This Computer Vision project uses MATLAB for rapid, non-invasive analysis of dermal images, aiming to provide preliminary classification of conditions based on visual patterns.</p>
-                        <a href="https://github.com/Geethika-2117/Disease-Detection-Matlab" target="_blank" class="project-link">Github Repo &rarr;</a>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
-                    <div class="service-content">
-                        <h3>Travel Planner</h3>
-                        <p>Project demonstrating advanced Data Modeling for complex, relational travel data. Implements algorithms for efficient route optimization to build customizable, multi-stop itineraries.</p>
-                        <a href="https://github.com/Geethika-2117/Travel-Planner" target="_blank" class="project-link">GitHub Repo &rarr;</a>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-gamepad"></i></div>
-                    <div class="service-content">
-                        <h3>The Handmade Hub - Ecommerce</h3>
-                        <p>A responsive Handmade Goods Platform where the focus is on seamless product discovery. Features dynamic catalog filtering, personalized user dashboards, and smooth shopping cart functionality, built with React.</p>
-                        <a href="https://github.com/Geethika-2117/TheHandmadeHub" target="_blank" class="project-link">GitHub Repo &rarr;</a><br>
-                        <a href="https://geethika-2117.github.io/TheHandmadeHub/" target="_blank" class="project-link">visit Demo &rarr;</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- NEW: Skills Section -->
-        <section class="about" id="skills" style="background: #f8f8f8;">
-            <div>
-                <h2>Technical Proficiency</h2>
-                <p>My skill set is balanced between foundational CSE concepts and practical development tools. I am continuously expanding my knowledge in modern web and cloud technologies.</p>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>Languages</h3>
-                        <p>C, Python, JavaScript (ES6+), Java, HTML/CSS</p>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Frameworks & Libraries</h3>
-                        <p>React, Node.js (Express)</p>
-                    </div>
-                    <!--<div class="skill-card">
-                        <h3>Databases & Tools</h3>
-                        <p>MySQL, MongoDB, Git, VS Code</p>
-                    </div> -->
-                    <div class="skill-card">
-                        <h3>Core CSE</h3>
-                        <p>Data Structures, Algorithms, OOP, OS Concepts</p>
-                    </div>
-                </div>
-            </div>
-            <div class="value-card" style="background: #e8eaf6;">
-                <h3 style="color:#1a1a1a;">Competitive Programming</h3>
-                <p style="color:#333;">Active on LeetCode, InterviewBit and HackerRank, focusing on optimizing solutions for time and space complexity. See my profiles below.</p>
-                <div class="social-links" style="margin-top: 20px;">
-                    <a href="https://leetcode.com/u/Geethika_2117/" target="_blank" title="LeetCode" style="color:#1a1a1a;"><i class="fas fa-terminal"></i></a>
-                    <a href="https://www.hackerrank.com/profile/vangalageethika" target="_blank" title="HackerRank" style="color:#1a1a1a;"><i class="fas fa-trophy"></i></a>
-                    <a href="https://www.interviewbit.com/profile/geethika-vangala/" target="_blank" title="InterviewBit" style="color:#1a1a1a;"><i class="fas fa-graduation-cap"></i></a>
-                </div>
-            </div>
-        </section>
 
-        <!-- Contact Section -->
-        <section class="services" id="contact">
-      <h2>Get In Touch</h2>
-      <p style="text-align: center; max-width: 600px; margin: 0 auto 40px;">
-        I am actively seeking Internship opportunities and collaborations. Feel free to connect!
-      </p>
-      <div class="contact-form-container">
+    <div class="hero-visual reveal">
+      <div class="photo-frame">
+        <img src="pic2.jpg" alt="Vangala Venkata Geethika" class="main-photo">
+      </div>
+      <div class="terminal-chip" aria-hidden="true">
+        <div class="terminal-dots"><span></span><span></span><span></span></div>
+        <p><span class="tk-prompt">&gt;</span> whoami</p>
+        <p class="tk-out">geethika &mdash; CSE (AI), '28</p>
+        <p><span class="tk-prompt">&gt;</span> status</p>
+        <p class="tk-out tk-accent">open_to_internships: true</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="reveal">
+      <p class="section-eyebrow">01 / About</p>
+      <h2>About Me</h2>
+      <p class="about-copy">I am a Computer Science (Artificial Intelligence) undergraduate at Amrita Vishwa Vidyapeetham with a CGPA of 9.48/10. Skilled in Java, Python, Data Structures &amp; Algorithms, Machine Learning, and web development, I'm passionate about building scalable software solutions and actively seeking a Software Engineering Internship for Summer 2027.</p>
+
+      <div class="highlight-grid">
+        <div class="highlight-chip"><i class="fas fa-graduation-cap"></i><span>CGPA 9.48/10</span></div>
+        <div class="highlight-chip"><i class="fas fa-brain"></i><span>AI Undergraduate</span></div>
+        <div class="highlight-chip"><i class="fas fa-diagram-project"></i><span>Software Engineering</span></div>
+        <div class="highlight-chip"><i class="fas fa-robot"></i><span>Machine Learning</span></div>
+        <div class="highlight-chip"><i class="fas fa-lightbulb"></i><span>Problem Solving</span></div>
+      </div>
+    </div>
+
+    <div class="value-card reveal">
+      <h3>What I bring</h3>
+      <p>Strong logical thinking, clean coding practices, and a proactive attitude toward learning new frameworks and solving complex problems efficiently — from model training to shipped UI.</p>
+      <div class="value-icon"><i class="fas fa-terminal"></i></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education" id="education">
+    <p class="section-eyebrow center">02 / Education</p>
+    <h2 class="center">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-card">
+          <span class="timeline-period">2024 &ndash; 2028</span>
+          <h3>Bachelor of Technology</h3>
+          <p class="timeline-org">Computer Science Engineering (Artificial Intelligence)</p>
+          <p class="timeline-place">Amrita Vishwa Vidyapeetham, Amaravati</p>
+          <span class="timeline-metric">CGPA: 9.48 / 10</span>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-card">
+          <span class="timeline-period">2022 &ndash; 2024</span>
+          <h3>Intermediate / Higher Secondary Education</h3>
+          <p class="timeline-place">Sri Chaitanya Junior College</p>
+          <span class="timeline-metric">98%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <p class="section-eyebrow center">03 / Experience</p>
+    <h2 class="center">Work Experience</h2>
+    <div class="exp-timeline">
+      <div class="exp-card reveal">
+        <div class="exp-card-header">
+          <div class="exp-icon"><i class="fas fa-robot"></i></div>
+          <div>
+            <h3>AI/ML Intern</h3>
+            <p class="exp-org">ShadowFox &mdash; Virtual Internship</p>
+          </div>
+          <span class="exp-period">June 2026</span>
+        </div>
+        <ul class="exp-list">
+          <li><i class="fas fa-house-chimney"></i> Engineered a <strong>Boston House Price Prediction</strong> model using Gradient Boosting Regression, achieving an R&sup2; score of 0.92 through feature engineering and hyperparameter tuning.</li>
+          <li><i class="fas fa-hand-holding-dollar"></i> Built a <strong>Loan Approval Prediction</strong> system using machine learning classification algorithms to automate loan eligibility assessment from applicant financial and credit-history data.</li>
+          <li><i class="fas fa-comments"></i> Implemented and evaluated a <strong>Large Language Model (LLM)</strong> for NLP tasks, analyzing contextual understanding, text generation quality, and model performance across diverse input scenarios.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <p class="section-eyebrow center">04 / Work</p>
+    <h2 class="center">Featured Projects</h2>
+    <p class="section-sub center">A selection of things I've designed, trained, and shipped.</p>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-traffic-light"></i></div>
+        <h3>TRAFIK&#8209;4X</h3>
+        <p>An AI-driven traffic management platform predicting event impact and supporting intelligent traffic planning, featuring an XGBoost-based impact prediction model and an Event DNA recommendation engine for resource allocation.</p>
+        <div class="tech-tags">
+          <span>React</span><span>FastAPI</span><span>Python</span><span>XGBoost</span><span>PostgreSQL</span><span>Tailwind CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Geethika-2117/TRAFIK-4X" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-route"></i></div>
+        <h3>Travel Planner</h3>
+        <p>A full-stack, web-based travel application optimizing itinerary management, with a dynamic relational MySQL database linking user accounts, trip destinations, and custom dates.</p>
+        <div class="tech-tags">
+          <span>Java</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Geethika-2117/Travel-Planner" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-shop"></i></div>
+        <h3>Handmade Hub</h3>
+        <p>A responsive e-commerce platform for handmade goods with dynamic catalog filtering, dashboards, and cart functionality.</p>
+        <div class="tech-tags">
+          <span>React</span><span>JavaScript</span><span>CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Geethika-2117/TheHandmadeHub" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://geethika-2117.github.io/TheHandmadeHub/" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> Live Demo</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-microscope"></i></div>
+        <h3>Disease Detection using MATLAB</h3>
+        <p>A computer vision prototype for automated skin disease diagnosis using non-invasive dermal image analysis.</p>
+        <div class="tech-tags">
+          <span>MATLAB</span><span>Computer Vision</span><span>Image Processing</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Geethika-2117/Disease-Detection-Matlab" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>ShadowFox Internship</h3>
+        <p>AI/ML Virtual Internship covering house-price regression, loan-approval classification, and evaluation of a Large Language Model for NLP tasks.</p>
+        <div class="tech-tags">
+          <span>Machine Learning</span><span>Regression</span><span>Classification</span><span>Scikit-learn</span><span>Python</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Geethika-2117/ShadowFox" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-house-chimney"></i></div>
+        <h3>Boston House Price Prediction</h3>
+        <p>Engineered a regression model using Gradient Boosting to predict Boston housing prices, achieving an R&sup2; score of 0.92 through feature engineering and hyperparameter tuning.</p>
+        <div class="tech-tags">
+          <span>Python</span><span>Gradient Boosting</span><span>Feature Engineering</span><span>Scikit-learn</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link-muted"><i class="fas fa-flask"></i> Coursework project</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- RESEARCH INTERESTS -->
+  <section class="research" id="research">
+    <p class="section-eyebrow center">05 / Focus</p>
+    <h2 class="center">Research Interests</h2>
+    <div class="research-grid">
+      <div class="research-card reveal"><i class="fas fa-brain"></i><span>Artificial Intelligence</span></div>
+      <div class="research-card reveal"><i class="fas fa-robot"></i><span>Machine Learning</span></div>
+      <div class="research-card reveal"><i class="fas fa-eye"></i><span>Computer Vision</span></div>
+      <div class="research-card reveal"><i class="fas fa-satellite"></i><span>Satellite Intelligence</span></div>
+      <div class="research-card reveal"><i class="fas fa-city"></i><span>Smart Cities</span></div>
+      <div class="research-card reveal"><i class="fas fa-circle-nodes"></i><span>Cognitive AI</span></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <p class="section-eyebrow center">06 / Toolkit</p>
+    <h2 class="center">Technical Skills</h2>
+    <p class="section-sub center">Balanced between core CSE fundamentals and applied ML / web development.</p>
+
+    <div class="skills-grid">
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-code"></i> Programming</h3>
+        <div class="tag-row"><span>Java</span><span>Python</span><span>C</span></div>
+      </div>
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-robot"></i> Machine Learning</h3>
+        <div class="tag-row"><span>Regression</span><span>Classification</span><span>Feature Engineering</span><span>Model Evaluation</span></div>
+      </div>
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-chart-line"></i> Libraries</h3>
+        <div class="tag-row"><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span><span>Matplotlib</span></div>
+      </div>
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-display"></i> Web</h3>
+        <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      </div>
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-database"></i> Database</h3>
+        <div class="tag-row"><span>MySQL</span></div>
+      </div>
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-toolbox"></i> Tools</h3>
+        <div class="tag-row"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Jupyter Notebook</span></div>
+      </div>
+      <div class="skill-block reveal">
+        <h3><i class="fas fa-microchip"></i> Core CS</h3>
+        <div class="tag-row"><span>Data Structures</span><span>Algorithms</span><span>OOP</span><span>Problem Solving</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements" id="achievements">
+    <p class="section-eyebrow center">07 / Record</p>
+    <h2 class="center">Achievements</h2>
+
+    <div class="achievement-highlights">
+      <div class="achievement-mini reveal">
+        <i class="fas fa-trophy"></i>
+        <h4>Flipkart Gridlock 2.0</h4>
+        <p>Qualified Round 2 &mdash; top 10% nationally</p>
+      </div>
+      <div class="achievement-mini reveal">
+        <i class="fas fa-code"></i>
+        <h4>LeetCode Problem Solving</h4>
+        <p>Regular algorithmic &amp; DSA practice</p>
+      </div>
+      <div class="achievement-mini reveal">
+        <i class="fas fa-award"></i>
+        <h4>NPTEL Elite Certification</h4>
+        <p>DSA using Java &mdash; IIT Kharagpur</p>
+      </div>
+    </div>
+
+    <div class="achievement-feature reveal">
+      <div class="achievement-feature-text">
+        <h3>Flipkart Gridlock 2.0</h3>
+        <p>Qualified for the next round of the Software Development Challenge, placing in the <strong>top 10%</strong> nationally.</p>
+      </div>
+      <div class="achievement-stats">
+        <div class="stat"><span class="stat-number" data-target="10">0</span><span class="stat-suffix">%</span><span class="stat-label">Top percentile</span></div>
+        <div class="stat"><span class="stat-number" data-target="1635">0</span><span class="stat-label">Rank achieved</span></div>
+        <div class="stat"><span class="stat-number" data-target="16000">0</span><span class="stat-suffix">+</span><span class="stat-label">Teams competed</span></div>
+      </div>
+    </div>
+
+    <p class="section-eyebrow center certs-eyebrow">Certifications</p>
+    <div class="certifications-grid">
+      <div class="cert-card reveal">
+        <i class="fas fa-certificate"></i>
+        <h4>NPTEL &mdash; Elite</h4>
+        <p>Data Structures &amp; Algorithms using Java</p>
+        <span class="cert-date">IIT Kharagpur &middot; Oct 2025</span>
+      </div>
+      <div class="cert-card reveal">
+        <i class="fas fa-certificate"></i>
+        <h4>IBM</h4>
+        <p>Machine Learning with Python</p>
+        <span class="cert-date">Coursera &middot; Apr 2026</span>
+      </div>
+      <div class="cert-card reveal">
+        <i class="fas fa-certificate"></i>
+        <h4>Cisco</h4>
+        <p>Python Essentials 2</p>
+        <span class="cert-date">Cisco Networking Academy &middot; Feb 2026</span>
+      </div>
+      <div class="cert-card reveal">
+        <i class="fas fa-certificate"></i>
+        <h4>Cisco</h4>
+        <p>Python Essentials 1</p>
+        <span class="cert-date">Cisco Networking Academy &middot; Jan 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETITIVE PROGRAMMING -->
+  <section class="competitive" id="competitive">
+    <p class="section-eyebrow center">08 / Practice</p>
+    <h2 class="center">Competitive Programming</h2>
+    <p class="section-sub center">Active across platforms, focused on optimizing for time &amp; space complexity.</p>
+    <div class="cp-grid">
+      <a href="https://leetcode.com/u/Geethika_2117/" target="_blank" rel="noopener" class="cp-card reveal">
+        <i class="fas fa-code"></i>
+        <h4>LeetCode</h4>
+        <p>DSA &amp; Algorithm Practice</p>
+        <span class="cp-btn">View Profile <i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+      <a href="https://github.com/Geethika-2117" target="_blank" rel="noopener" class="cp-card reveal">
+        <i class="fab fa-github"></i>
+        <h4>GitHub</h4>
+        <p>Open Source Projects &amp; Software Development</p>
+        <span class="cp-btn">View Profile <i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+      <a href="https://www.codechef.com/users/hatch_door_87" target="_blank" rel="noopener" class="cp-card reveal">
+        <i class="fas fa-hat-wizard"></i>
+        <h4>CodeChef</h4>
+        <p>Competitive Programming &amp; Problem Solving</p>
+        <span class="cp-btn">View Profile <i class="fas fa-arrow-up-right-from-square"></i></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-eyebrow center">09 / Connect</p>
+    <h2 class="center">Get In Touch</h2>
+    <p class="section-sub center">I am actively seeking Software Engineering and AI Internship opportunities. Feel free to connect!</p>
+
+    <div class="contact-layout">
+      <div class="contact-links reveal">
+        <a href="mailto:vangalageethika@gmail.com" class="contact-link"><i class="fas fa-envelope"></i><span>Email</span></a>
+        <a href="https://www.linkedin.com/in/venkata-geethika-vangala-808a44336/" target="_blank" rel="noopener" class="contact-link"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+        <a href="https://github.com/Geethika-2117" target="_blank" rel="noopener" class="contact-link"><i class="fab fa-github"></i><span>GitHub</span></a>
+        <a href="https://leetcode.com/u/Geethika_2117/" target="_blank" rel="noopener" class="contact-link"><i class="fas fa-code"></i><span>LeetCode</span></a>
+        <a href="resume.pdf" download class="contact-link"><i class="fas fa-file-arrow-down"></i><span>Resume</span></a>
+      </div>
+
+      <div class="contact-form-container reveal">
         <form class="contact-form" id="contactForm">
           <input type="text" name="from_name" placeholder="Your Name" required>
           <input type="email" name="reply_to" placeholder="Your Email" required>
           <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit" class="btn-primary">Send Message</button>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
         </form>
       </div>
-    </section>
-
-    </main>
-
-    <!-- Success Modal -->
-  <div id="successModal" class="modal">
-    <div class="modal-content">
-      <span class="close-button">&times;</span>
-      <h2>Message Sent!</h2>
-      <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
     </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Designed &amp; Developed by <strong>Vangala Venkata Geethika</strong></p>
+  <p>&copy; 2026 All Rights Reserved.</p>
+</footer>
+
+<!-- Success Modal -->
+<div id="successModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h2>Message Sent!</h2>
+    <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
   </div>
-    <script>
-    const sections = document.querySelectorAll('main section');
-    const navLinks = document.querySelectorAll('.nav-link');
-    const sectionIdToLinkMap = {};
-    navLinks.forEach(link => {
-      const sectionId = link.getAttribute('href').substring(1);
-      sectionIdToLinkMap[sectionId] = link;
-    });
-    const observerOptions = { root: null, rootMargin: '-50% 0px -50% 0px', threshold: 0 };
-    const observerCallback = (entries) => {
-      entries.forEach(entry => {
-        const sectionId = entry.target.id;
-        const correspondingLink = sectionIdToLinkMap[sectionId];
-        if (correspondingLink && entry.isIntersecting) {
-          navLinks.forEach(link => link.classList.remove('active'));
-          correspondingLink.classList.add('active');
-        }
-      });
-    };
-    const sectionObserver = new IntersectionObserver(observerCallback, observerOptions);
-    sections.forEach(section => { if (section.id) sectionObserver.observe(section); });
+</div>
 
-    // Smooth Scroll
-    navLinks.forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-
-    // Contact Form (EmailJS)
-    const form = document.getElementById("contactForm");
-    const modal = document.getElementById("successModal");
-    const closeBtn = document.querySelector(".close-button");
-
-    form.addEventListener("submit", function(event) {
-      event.preventDefault();
-
-      emailjs.sendForm("service_4mcjojf", "template_15oy37e", this)
-        .then(() => {
-          modal.style.display = "block";
-          form.reset();
-        }, (error) => {
-          alert("Failed to send message: " + JSON.stringify(error));
-        });
-    });
-
-    closeBtn.addEventListener("click", () => { modal.style.display = "none"; });
-    window.addEventListener("click", (e) => { if (e.target === modal) modal.style.display = "none"; });
-  </script>
-
+<script src="script.js"></script>
 </body>
 </html>
-
